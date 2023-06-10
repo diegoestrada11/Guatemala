@@ -140,6 +140,8 @@ nav a:hover {
 .sitemap > div {
 
   text-align: center;
+  
+
 
 }
 .sm-home {
@@ -156,6 +158,13 @@ nav a:hover {
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
+}
+.sm-page4{
+  grid-area: page3;
+  background-color: #ccc;
+  line-height: 3em;
+  position: relative;
+  right: 500px;
 }
 
 .top {
