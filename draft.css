@@ -45,6 +45,15 @@ nav a:hover{
 .picture1{
     width: 30%;
 }
+#picture-antigua{
+    width: 30%;
+}
+.girl-fruit{
+    width: 30%;
+}
+.pic-history{
+    width: 30%;
+}
 /*Background behind logo*/
 #background{
     background-color: #B8B8B8;
@@ -56,3 +65,41 @@ nav a:hover{
     z-index: -1;
     box-shadow: 5px 5px 5px #C4EFFD;
 }
+
+/* Paragraph */
+.paragraph{
+    font-size: xx-large;
+    color: white;
+    font-family: "Kalam", Indie Flower, Space Grotesk;;
+}
+
+/*Footer*/
+footer {
+    background-color: #B8B8B8;
+    padding: 20px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Indie Flower,Kalam, Space Grotesk;;
+    font-size: x-large;
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px #C4EFFD;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+/*History page*/
+
+.paragraph1{
+    color: white;
+}
+
+/*Pictures page*/
+.paragraph2{
+    color: white;
+}
+
+/*Food page*/
