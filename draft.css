@@ -42,17 +42,49 @@ nav a:hover{
 }
 /*Pictures with link*/
 /*Main*/
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: auto auto auto; /* Auto-sized rows for pictures and paragraph */
+    grid-gap: 20px; /* Gap between grid items */
+    align-items: start; /* Align grid items to the top */
+  }
+  
+  .picture-places {
+    grid-column: 1 / span 1; /* Position in the first column */
+    grid-row: 1 / span 1; /* Position in the first row */
+  }
+  
+  .paragraph {
+    grid-column: 1 / span 2; /* Position in the first and second columns */
+    grid-row: 2 / span 1; /* Position in the second row */
+  }
+  
+  .pictures-food {
+    grid-column: 2 / span 1; /* Position in the second column */
+    grid-row: 1 / span 1; /* Position in the first row */
+  }
+  
+  .picture-history {
+    grid-column: 2 / span 1; /* Position in the second column */
+    grid-row: 3 / span 1; /* Position in the third row */
+  }
+
 .picture1{
-    width: 30%;
+    width: 40%;
+    border: black solid 5px;
 }
 #picture-antigua{
-    width: 30%;
+    width: 40%;
+    border: 5px solid black;
 }
 .girl-fruit{
-    width: 30%;
+    width: 45%;
+    border: 5px black solid;
 }
 .pic-history{
-    width: 30%;
+    width: 40%;
+    border: 5px black solid;
 }
 /*Background behind logo*/
 #background{
@@ -68,23 +100,28 @@ nav a:hover{
 
 /* Paragraph */
 .paragraph{
-    font-size: xx-large;
-    color: white;
+    font-size: x-large;
+    color: black;
     font-family: "Kalam", Indie Flower, Space Grotesk;;
+    border: 5px black solid;
+    background-color: #B8B8B8;
 }
 
 /*Footer*/
 footer {
     background-color: #B8B8B8;
     padding: 20px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: Indie Flower,Kalam, Space Grotesk;;
+    font-family: "Indie Flower", Kalam, Space Grotesk;
     font-size: x-large;
     border: 5px solid black;
     box-shadow: 5px 5px 5px #C4EFFD;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 footer a{
     text-decoration: none;
