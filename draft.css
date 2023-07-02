@@ -42,50 +42,73 @@ nav a:hover{
 }
 /*Pictures with link*/
 /*Main*/
-main {
+#picture-home {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-template-rows: auto auto auto; /* Auto-sized rows for pictures and paragraph */
-    grid-gap: 20px; /* Gap between grid items */
-    align-items: start; /* Align grid items to the top */
-  }
-  
-  .picture-places {
-    grid-column: 1 / span 1; /* Position in the first column */
-    grid-row: 1 / span 1; /* Position in the first row */
-  }
-  
-  .paragraph {
-    grid-column: 1 / span 2; /* Position in the first and second columns */
-    grid-row: 2 / span 1; /* Position in the second row */
-  }
-  
-  .pictures-food {
-    grid-column: 2 / span 1; /* Position in the second column */
-    grid-row: 1 / span 1; /* Position in the first row */
-  }
-  
-  .picture-history {
-    grid-column: 2 / span 1; /* Position in the second column */
-    grid-row: 3 / span 1; /* Position in the third row */
-  }
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
 
-.picture1{
-    width: 40%;
-    border: black solid 5px;
+#picture-home p {
+    grid-column: 1/2;
+    text-align: center;
+    margin: 0 auto;
 }
-#picture-antigua{
-    width: 40%;
-    border: 5px solid black;
+
+#picture-antigua {
+    grid-column: 2/3;
 }
-.girl-fruit{
-    width: 45%;
-    border: 5px black solid;
+
+.picture-places {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
 }
-.pic-history{
-    width: 40%;
-    border: 5px black solid;
+
+.picture-places p {
+    grid-column: 2/3;
+    text-align: center;
+    margin: 0 auto;
 }
+
+.picture1 {
+    grid-column: 1/2;
+}
+
+.pictures-food {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
+
+.girl-fruit {
+    grid-column: 2/3;
+}
+
+.pictures-food p {
+    grid-column: 1/2;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.picture-history {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 300px;
+}
+
+.picture-history p {
+    grid-column: 2/3;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pic-history {
+    grid-column: 1/2;
+    margin-left: 200px;
+}
+
+
 /*Background behind logo*/
 #background{
     background-color: #B8B8B8;
@@ -105,12 +128,16 @@ main {
     font-family: "Kalam", Indie Flower, Space Grotesk;;
     border: 5px black solid;
     background-color: #B8B8B8;
+    grid-row: 1/3;
+    grid-column: 2/3;
+    width: 50%;
+    text-align: center;
 }
 
 /*Footer*/
 footer {
     background-color: #B8B8B8;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -121,12 +148,23 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 97%;
+    margin: 0 12px; 
+    padding: 10px;
 }
 footer a{
     text-decoration: none;
     color: black;
+    
 }
+
+.content {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 1fr 1fr;
+}
+
+
 
 /*History page*/
 
