@@ -182,6 +182,7 @@ div.scroll-container {
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
+    margin-bottom: 70px;
 }
   
 div.scroll-container img {
