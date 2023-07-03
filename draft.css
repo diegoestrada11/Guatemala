@@ -176,5 +176,18 @@ footer a{
 .paragraph2{
     color: white;
 }
+div.scroll-container {
+    background-color: #B8B8B8;
+    border: solid black 5px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+  
+div.scroll-container img {
+    padding: 10px;
+}
 
-/*Food page*/
+
+/* Culture Page */
+
