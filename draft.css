@@ -27,7 +27,6 @@ nav a {
     color: black;
 }
 nav a:hover{
-    background-color: darkgreen;
     color: white;
 }
 /*Logo*/
@@ -106,6 +105,7 @@ nav a:hover{
 .pic-history {
     grid-column: 1/2;
     margin-left: 200px;
+    width: 90%;
 }
 
 
@@ -123,7 +123,7 @@ nav a:hover{
 
 /* Paragraph */
 .paragraph{
-    font-size: x-large;
+    font-size: 21px;
     color: black;
     font-family: "Kalam", Indie Flower, Space Grotesk;;
     border: 5px black solid;
@@ -132,6 +132,8 @@ nav a:hover{
     grid-column: 2/3;
     width: 50%;
     text-align: center;
+    box-shadow: #C4EFFD 5px 5px 5px;
+    
 }
 
 /*Footer*/
@@ -145,12 +147,17 @@ footer {
     font-size: x-large;
     border: 5px solid black;
     box-shadow: 5px 5px 5px #C4EFFD;
-    position: fixed;
+    position:relative;
     bottom: 0;
     left: 0;
     width: 97%;
     margin: 0 12px; 
+    margin-bottom: 20px;
     padding: 10px;
+    
+}
+footer a:hover{
+    color: white;
 }
 footer a{
     text-decoration: none;
@@ -166,14 +173,45 @@ footer a{
 
 
 
+/*--------------------------------------------*/
+
 /*History page*/
 
-.paragraph1{
-    color: white;
+.history-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pics-history {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
+.history-picture {
+    text-align: center;
+}
+
+.history-picture img {
+    width: 300px;
+    height: auto;
+}
+.paragraph-history {
+    margin-top: 10px;
+    text-align: center;
+    border: solid black 5px;
+    background-color: #B8B8B8;
+    color: black;
+}
+
+
+
+
+/*------------------------------------------*/
 /*Pictures page*/
-.paragraph2{
+.paragraph-pictures{
     color: white;
 }
 div.scroll-container {
