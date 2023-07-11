@@ -241,9 +241,24 @@ div.scroll-container {
     padding: 10px;
     margin-bottom: 50px;
     box-shadow: #C4EFFD 5px 5px 5px;
+    margin-top: 80px;
 }
   
 div.scroll-container img {
+    padding: 10px;
+}
+div.scroll-container2 {
+    background-color: #B8B8B8;
+    border: solid black 5px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-bottom: 50px;
+    box-shadow: #C4EFFD 5px 5px 5px;
+    margin-top: 80px;
+}
+  
+div.scroll-container2 img {
     padding: 10px;
 }
 
