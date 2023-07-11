@@ -219,6 +219,19 @@ footer a{
     flex-direction: column;
     align-items: center;
   }
+  .paragraph-culture{
+    font-size: 21px;
+    color: black;
+    font-family: "Kalam", Indie Flower, Space Grotesk;
+    border: 5px black solid;
+    background-color: #B8B8B8;
+    grid-row: 1/3;
+    grid-column: 2/3;
+    width: 50%;
+    text-align: center;
+    box-shadow: #C4EFFD 5px 5px 5px;
+    
+}
 
 
 
@@ -260,6 +273,72 @@ div.scroll-container2 {
     
 }
 
-
+/*-----------------------------------*/
 /* Culture Page */
 
+#picture-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#picture-home p {
+    grid-column: 1/2;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#picture-antigua {
+    grid-column: 2/3;
+}
+
+.picture-places {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
+
+.picture-places p {
+    grid-column: 2/3;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.picture1 {
+    grid-column: 1/2;
+}
+
+.pictures-food {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
+
+.girl-fruit {
+    grid-column: 2/3;
+}
+
+.pictures-food p {
+    grid-column: 1/2;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.picture-history {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
+
+.picture-history p {
+    grid-column: 2/3;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pic-history {
+    grid-column: 1/2;
+    margin-left: 200px;
+    width: 90%;
+}
