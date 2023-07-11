@@ -232,6 +232,7 @@ footer a{
     font-family:  "Kalam", Indie Flower, Space Grotesk;
     font-size: x-large;
     box-shadow: #C4EFFD 5px 5px 5px;
+    margin-bottom: 50px;
 }
 div.scroll-container {
     background-color: #B8B8B8;
