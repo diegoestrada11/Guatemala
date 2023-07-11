@@ -225,50 +225,78 @@ footer a{
 
 /*------------------------------------------*/
 /*Pictures page*/
-div.gallery {
-    border: 1px solid #ccc;
+.paragraph-pictures{
+    color: black;
+    border: 5px solid black;
+    background-color: #B8B8B8;
+    font-family:  "Kalam", Indie Flower, Space Grotesk;
+    font-size: x-large;
+    box-shadow: #C4EFFD 5px 5px 5px;
+    margin-bottom: 50px;
+}
+div.scroll-container {
+    background-color: #B8B8B8;
+    border: solid black 5px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-bottom: 50px;
+    box-shadow: #C4EFFD 5px 5px 5px;
+    margin-top: 80px;
 }
   
-  div.gallery:hover {
-    border: 1px solid #777;
+div.scroll-container img {
+    padding: 10px;
+}
+div.scroll-container2 {
+    background-color: #B8B8B8;
+    border: solid black 5px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-bottom: 50px;
+    box-shadow: #C4EFFD 5px 5px 5px;
+    margin-top: 80px;
 }
   
-  div.gallery img {
+div.scroll-container2 img {
+    padding: 10px;
+}
+
+
+/* Culture Page */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
     width: 100%;
-    height: auto; 
-}
+  }
   
-  div.desc {
-    padding: 15px;
-    text-align: center;
-}
-  
-  * {
-    box-sizing: border-box;
-}
-  
-  .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-  
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
     }
-}
+  }
   
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
     }
-}
-  
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+  }
 
