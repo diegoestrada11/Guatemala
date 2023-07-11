@@ -156,7 +156,7 @@ footer {
     margin: 0 12px; 
     margin-bottom: 20px;
     padding: 10px;
-    
+    margin-left: 1px;
 }
 footer a:hover{
     color: white;
