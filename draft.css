@@ -225,43 +225,26 @@ footer a{
 
 /*------------------------------------------*/
 /*Pictures page*/
-.paragraph-pictures{
-    color: black;
-    border: 5px solid black;
-    background-color: #B8B8B8;
-    font-family:  "Kalam", Indie Flower, Space Grotesk;
-    font-size: x-large;
-    box-shadow: #C4EFFD 5px 5px 5px;
-    margin-bottom: 50px;
-}
-div.scroll-container {
-    background-color: #B8B8B8;
-    border: solid black 5px;
-    overflow: auto;
-    white-space: nowrap;
-    padding: 10px;
-    margin-bottom: 50px;
-    box-shadow: #C4EFFD 5px 5px 5px;
-    margin-top: 80px;
-}
+.history-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
   
-div.scroll-container img {
-    padding: 10px;
-}
-div.scroll-container2 {
-    background-color: #B8B8B8;
-    border: solid black 5px;
-    overflow: auto;
-    white-space: nowrap;
-    padding: 10px;
-    margin-bottom: 50px;
-    box-shadow: #C4EFFD 5px 5px 5px;
-    margin-top: 80px;
-}
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
-div.scroll-container2 img {
-    padding: 10px;
-}
+  .history-picture {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .paragraph-history {
+    margin-top: 10px;
+  }
 
 
 /* Culture Page */
