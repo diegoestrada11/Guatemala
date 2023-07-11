@@ -225,26 +225,40 @@ footer a{
 
 /*------------------------------------------*/
 /*Pictures page*/
-.history-main {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-  }
+div.scroll-container {
+    background-color: #B8B8B8;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #C4EFFD;
+    border: 5px solid black;
+    margin-top: 80px;
+    
+}
   
-  .column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .history-picture {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .paragraph-history {
-    margin-top: 10px;
-  }
+  div.scroll-container img {
+    padding: 10px;
+}
+.paragraph-pictures{
+    background-color: #B8B8B8;
+    color: black;
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px #C4EFFD;
+    font-size: x-large;
+    font-family:"Kalam", Indie Flower, Space Grotesk ;
+    margin-top: 70px;
+}
+div.scroll-container2 {
+    background-color: #B8B8B8;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #C4EFFD;
+    border: 5px solid black;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    
+}
 
 
 /* Culture Page */
